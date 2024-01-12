@@ -1,0 +1,460 @@
+@media screen and (min-width: 1060px) {
+  .container {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.secMarginTop {
+  margin-top: 40px;
+}
+
+.Event1 {
+  margin: 40px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .Event1 {
+    margin: 60px 0;
+  }
+}
+
+.eventHeading {
+  margin: 0px 0px 10px;
+  border: 1px solid #ddd;
+  border-right: unset;
+  border-bottom: unset;
+  padding-left: 28px;
+  position: relative;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .eventHeading {
+    padding-top: 12px;
+    margin: 0px 0px 30px;
+    padding-left: 31px;
+  }
+}
+
+.eventHeading::after {
+  position: absolute;
+  content: "";
+  background-color: #ED148F;
+  -webkit-clip-path: polygon(50% 0%, 100% 23%, 100% 77%, 50% 100%, 0 76%, 0 22%);
+          clip-path: polygon(50% 0%, 100% 23%, 100% 77%, 50% 100%, 0 76%, 0 22%);
+  width: 22px;
+  height: 24px;
+  top: 14px;
+  left: -10px;
+}
+
+@media screen and (min-width: 768px) {
+  .eventHeading::after {
+    top: 16px;
+    left: -11px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .eventHeading::after {
+    width: 23px;
+    height: 26px;
+    top: 18px;
+    left: -12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .eventHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .eventHeading .leftOuter {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .eventHeading .leftOuter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.eventHeading .leftOuter h1, .eventHeading .leftOuter h2, .eventHeading .leftOuter h3, .eventHeading .leftOuter h4, .eventHeading .leftOuter h5, .eventHeading .leftOuter h6 {
+  font-weight: 700;
+}
+
+.eventHeading .leftOuter p {
+  color: #939393;
+}
+
+@media screen and (min-width: 992px) {
+  .eventHeading .leftOuter p {
+    margin-bottom: 10px;
+    padding-left: 12px;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .eventHeading .rightOuter {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+}
+
+.eventHeading .rightOuter a {
+  text-decoration: unset;
+  color: #A4A6B4;
+  font-weight: 500;
+}
+
+.eventHeading .rightOuter i {
+  color: #A4A6B4;
+}
+
+@media screen and (min-width: 576px) {
+  .eventHeading .rightOuter i {
+    padding-left: 10px;
+  }
+}
+
+.mobileSlide {
+  overflow-y: hidden;
+  overflow-x: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 992px) {
+  .mobileSlide {
+    overflow-y: unset;
+    overflow-x: unset;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+}
+
+.mobileSlide > div {
+  width: 288px;
+}
+
+@media screen and (min-width: 576px) {
+  .mobileSlide > div {
+    width: 372px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobileSlide > div {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mobileSlide > div {
+    width: 33%;
+  }
+}
+
+.eventCardThumble {
+  height: 100% !important;
+  min-height: 1px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.eventCardThumble .eventCardInner {
+  position: relative;
+  margin: 0px 0px 20px 0px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border: 1px solid #ddd;
+}
+
+.eventCardThumble .eventCardInner:hover {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.eventCardThumble .eventCardInner h1, .eventCardThumble .eventCardInner h2, .eventCardThumble .eventCardInner h3, .eventCardThumble .eventCardInner h4, .eventCardThumble .eventCardInner h5, .eventCardThumble .eventCardInner h6 {
+  font-size: 21px;
+  margin: 0px 0px 5px 0px;
+}
+
+.eventCardThumble .eventCardInner h1 a, .eventCardThumble .eventCardInner h2 a, .eventCardThumble .eventCardInner h3 a, .eventCardThumble .eventCardInner h4 a, .eventCardThumble .eventCardInner h5 a, .eventCardThumble .eventCardInner h6 a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.eventCardThumble .eventCardInner h1 a:hover, .eventCardThumble .eventCardInner h2 a:hover, .eventCardThumble .eventCardInner h3 a:hover, .eventCardThumble .eventCardInner h4 a:hover, .eventCardThumble .eventCardInner h5 a:hover, .eventCardThumble .eventCardInner h6 a:hover {
+  color: #a4b200;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.eventCardThumble .eventCardBg {
+  background-color: #ccc;
+  height: 140px;
+  position: relative;
+}
+
+@media screen and (min-width: 576px) {
+  .eventCardThumble .eventCardBg {
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .eventCardThumble .eventCardBg {
+    height: 172px;
+  }
+}
+
+.eventCardThumble .eventCardBg a.eventCardImg {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+.eventCardThumble .eventCardBg a.eventCardImg::after {
+  content: "";
+  display: block;
+  height: 0%;
+  width: 0%;
+  background-color: rgba(0, 0, 0, 0.09);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: scale(1) translate(-50%, -50%);
+          transform: scale(1) translate(-50%, -50%);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 50%;
+}
+
+.eventCardThumble .eventCardBg a.eventCardImg:hover::after {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.eventCardThumble .eventCardBg img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.eventCardThumble .blogTime {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px 8px 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .eventCardThumble .blogTime {
+    padding: 18px 0px 8px 0px;
+  }
+}
+
+.eventCardThumble .blogTime ul {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.eventCardThumble .blogTime li {
+  font-size: 11px;
+  width: 45%;
+  padding-left: 13px;
+  position: relative;
+}
+
+.eventCardThumble .blogTime li:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .eventCardThumble .blogTime li {
+    font-size: 13px;
+  }
+}
+
+.eventCardThumble .blogTime li i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+@media screen and (min-width: 576px) {
+  .eventCardThumble .blogTime li i {
+    top: 4px;
+  }
+}
+
+.eventCardThumble .blogTime li a {
+  text-decoration: none;
+  padding-left: 5px;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .eventCardThumble .blogTime li a {
+    font-weight: 400;
+  }
+}
+
+.eventCardThumble .blogTime li a:hover {
+  text-decoration: underline;
+}
+
+.eventCardThumble .cardContentArea {
+  padding: 5px 11px 0px;
+  border-top: unset;
+}
+
+.eventCardThumble .PSubtittle {
+  padding-bottom: 2px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.eventCardThumble .PSubtittle a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ED148F;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+}
+
+@media screen and (min-width: 1015px) {
+  .eventCardThumble .PSubtittle a {
+    font-weight: 700;
+    margin-right: 9px;
+  }
+}
+
+.eventCardThumble .PSubtittle a:hover {
+  text-decoration: underline;
+}
+
+.eventCardThumble .PSubtittle a:not(:first-child)::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 13px;
+  width: 1px;
+  background-color: #ED148F;
+  left: -5px;
+  top: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .eventCardThumble .PSubtittle a:not(:first-child)::after {
+    width: 2px;
+    left: -7px;
+  }
+}
+
+.newMemberDan {
+  position: relative;
+  margin: 5px 0px 25px;
+  padding: 0px 25px;
+}
+
+.newMemberDan::after {
+  background-color: #ddd;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  right: auto;
+  top: 50%;
+  z-index: -1;
+}
+
+.newMemberDan span {
+  background: #fff;
+  padding: 10px 10px;
+  -webkit-box-shadow: 0px -4px 6px -1px #c1c1c1;
+          box-shadow: 0px -4px 6px -1px #c1c1c1;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.memberSlider {
+  margin: 10px 0px 5px;
+}
+
+.memberSlider .SliderItem {
+  margin: 0px 8px;
+}
+
+.memberSlider span {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border: 1px solid #E1E1E6;
+  height: 120px;
+  width: 100%;
+}
+
+.memberSlider span img {
+  max-height: 100%;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+/*# sourceMappingURL=main.css.map */

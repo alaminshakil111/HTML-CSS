@@ -1,0 +1,271 @@
+@import "../scss/bootstrap";
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+ul.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: -33px;
+    position: relative;
+    
+    button{
+       display: none;
+    }
+    li{
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        border-radius: 50px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        &:not(:last-child){
+            margin-right: 6px;
+        }
+    }
+    li.slick-active{
+        background-color: #000;
+    }
+}
+
+// DOTS CODE
+
+.bannerSlider1{
+    margin: 70px 0;
+
+    .sliderbannerImg{
+        position: relative;
+        min-height: 230px;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        @include min-width(576px){
+            min-height: 265px;
+        }
+        @include min-width(768px){
+            min-height: 355px;
+        }
+        @include min-width(992px){
+            min-height: 450px;
+        }
+        @include min-width(1200px){
+            min-height: 550px;
+        }
+        @include min-width(1400px){
+            min-height: 715px;
+        }
+         img{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+         }
+        .sliderContent {
+            position: relative;
+            width: 260px;
+            z-index: 2;
+            padding: 25px 15px 25px 25px;
+            @include min-width(576px){
+                width: 300px;
+            }
+            @include min-width(768px){
+                width: 450px;
+            }
+            @include min-width(1200px){
+                width: 500px;
+            }
+            @include min-width(1400px){
+                width: 686px;
+                padding: 162px 0px 100px 63px;
+            }
+    
+            .slidercntntNumber{
+                position: relative;
+                text-decoration: none;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    display: block;
+                    width: 75px;
+                    height: 2px;
+                    background-color: #000;
+                    bottom: 0;
+    
+                    @include min-width(768px){
+                        width: 98px;
+                        right: 10px;
+                    }
+                    @include min-width(992px){
+                        width: 140px;
+                        right: auto;
+                        bottom: 0;
+                    }
+                    @include min-width(1400px){
+                        width: 178px;
+                        right: auto;
+                        bottom: 4px;
+                        left: -474px;
+                    }
+                }
+            }
+        }
+        .h2{
+            font-family: 'cretypeArticoExtraBold.otf';
+            margin: unset;
+            font-size: 20px;
+            text-shadow: 2px 2px 2px #cecece;
+            @include min-width(768px){
+                font-size: 30px
+            }
+            @include min-width(992px){
+                font-size: 40px
+            }
+            @include min-width(1400px){
+                font-size: 55px;
+                margin-bottom: 26px;
+            }
+        }
+    }
+}
+
+// BANNER 1 END
+
+.bannerSlider2{
+    margin: 70px 0;
+
+    .sliderbannerImg{
+        position: relative;
+        min-height: 230px;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        @include min-width(576px){
+            min-height: 265px;
+        }
+        @include min-width(768px){
+            min-height: 355px;
+        }
+        @include min-width(992px){
+            min-height: 450px;
+        }
+        @include min-width(1200px){
+            min-height: 550px;
+        }
+        @include min-width(1400px){
+            min-height: 715px;
+        }
+         img{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+         }
+        .sliderContent {
+            position: relative;
+            width: 260px;
+            z-index: 2;
+            padding: 25px 15px 25px 25px;
+            @include min-width(576px){
+                width: 300px;
+            }
+            @include min-width(768px){
+                width: 450px;
+            }
+            @include min-width(1200px){
+                width: 500px;
+            }
+            @include min-width(1400px){
+                width: 686px;
+                padding: 162px 0px 100px 63px;
+            }
+            .slidercntntNumber{
+                position: relative;
+                text-decoration: none;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    display: block;
+                    width: 75px;
+                    height: 2px;
+                    background-color: #000;
+                    bottom: 0;
+                    @include min-width(768px){
+                        width: 98px;
+                        right: 10px;
+                    }
+                    @include min-width(992px){
+                        width: 140px;
+                        right: auto;
+                        bottom: 0;
+                    }
+                    @include min-width(1400px){
+                        width: 178px;
+                        right: auto;
+                        bottom: 4px;
+                        left: -474px;
+                    }
+                }
+            }
+        }
+        .h2{
+            font-family: 'cretypeArticoExtraBold.otf';
+            margin: unset;
+            font-size: 20px;
+            text-shadow: 2px 2px 2px #cecece;
+            @include min-width(768px){
+                font-size: 30px
+            }
+            @include min-width(992px){
+                font-size: 40px
+            }
+            @include min-width(1400px){
+                font-size: 55px;
+                margin-bottom: 26px;
+            }
+        }        
+    }
+    button.slick-prev.slick-arrow{
+        position: absolute;
+        z-index: 1;
+        top: 41%;
+        left: 0;
+        right: auto;
+        background-color: transparent;
+        border: 2px solid #000;
+        border-left: none;
+    }
+    button.slick-next.slick-arrow{
+        position: absolute;
+        z-index: 1;
+        top: 41%;
+        left: auto;
+        right: 0;
+        background-color: transparent;
+        border: 2px solid #000;
+        border-right: none;
+    }
+}
+
+// BANNER 2 end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

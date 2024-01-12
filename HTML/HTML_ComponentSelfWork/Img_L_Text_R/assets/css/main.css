@@ -1,0 +1,31 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.ImgDetails1 {
+  margin: 40px 0;
+}
+
+.ImgDetails1 .ImgInner img {
+  width: 100%;
+  height: 100%;
+}
+
+.ImgDetails1 .ImgText {
+  margin-bottom: 25px;
+}
+
+.ImgDetails1 .ImgText h2, .ImgDetails1 .ImgText .h2 {
+  margin: 15px 0px 5px 0px;
+}
+
+.ImgDetails1 .ImgTextAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

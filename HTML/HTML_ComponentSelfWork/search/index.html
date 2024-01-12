@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width minimum-scale=1.0 maximum-scale=1.0 user-scalable=no">
+    
+    <link rel="stylesheet" href="assets/css/webfont.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Search</title>
+   
+  <body>
+
+    <div class="search1">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="Search...">
+            <a href="#" class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- search1 END -->
+
+    <div class="search2">
+      <div class="container">
+        <div class="searchInner">
+          <input type="text" class="searchInput" placeholder="Search...">
+          <button type="submit" class="searchButton">
+           <i class="fa-solid fa-magnifying-glass"></i>
+         </button>
+       </div>
+      </div>
+    </div>
+
+    <!-- search 2 END -->
+
+    <div class="search3">
+      <div class="container">
+        <div class="searchInner">
+          <div id="myOverlay" class="overlay">
+            <div class="overlay-content">
+              <form action="/action_page.php">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+          <button class="openBtn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+<!-- search3 JQURY START -------->
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+<!-- search3 JQURY END ---------->
+
+
+
+
+
+
+
+  </body>
+</html>

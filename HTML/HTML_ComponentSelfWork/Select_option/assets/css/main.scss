@@ -1,0 +1,30 @@
+@import '../scss/bootstrap';
+
+
+form select{
+  min-width: 120px;
+  border: 2px solid #ccc;
+  padding: 5px 5px;
+  cursor: pointer;
+  
+  option{
+    background-color: rgb(24, 23, 23);
+    color: #fff;
+    padding: 5px 5px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

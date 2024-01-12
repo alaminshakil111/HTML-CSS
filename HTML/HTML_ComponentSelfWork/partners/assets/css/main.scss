@@ -1,0 +1,97 @@
+@import "../scss/bootstrap";
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+.clientList1{
+    margin: 40px 0;
+}
+
+.clientListSlick{
+    button.slick-prev.slick-arrow{
+        position: absolute;
+        z-index: 1;
+        top: 36%;
+        left: -9px;
+        right: auto;
+        background: unset;
+        border: unset;
+        font-size: 30px;
+        @include min-width(480px){
+            top: 34%;
+            left: -16px;
+            font-size: 36px;
+        }
+        @include min-width(768px){
+            left: -22px;
+        }
+    }
+    button.slick-next.slick-arrow{
+        position: absolute;
+        z-index: 1;
+        top: 36%;
+        right: -9px;
+        left: auto;
+        background: unset;
+        border: unset;
+        font-size: 30px;
+        @include min-width(480px){
+            top: 34%;
+            right: -16px;
+            font-size: 36px;
+        }
+        @include min-width(768px){
+            right: -22px;
+        }
+    }
+}
+
+.clientListInner{
+    position: relative;
+    padding: 0px 15px;
+    @include min-width(480px){
+        padding: 0px 10px;
+    }
+    .clientImg{
+        height: 135px;
+        margin: 6px 0px;
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: 3px 2px 2px 0px #908b8b;
+            transition: all 0.3s;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

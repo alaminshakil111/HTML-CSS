@@ -1,0 +1,349 @@
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#menu:not(.mm-spn) {
+  display: none;
+}
+
+.menuSec.secPadding {
+  padding: 18px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .menuSec.secPadding {
+    padding: 16px 0;
+  }
+}
+
+@media screen and (min-width: 1635px) {
+  .menuSec.secPadding .logoAlign {
+    width: 21.5%;
+  }
+}
+
+.menuSec.secPadding .logo img {
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .menuSec.secPadding .logo img {
+    width: 150px;
+  }
+}
+
+.menubar_align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+  .menubar_align {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+}
+
+@media screen and (min-width: 1635px) {
+  .menubar_align {
+    width: 77.5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mobileMenu {
+    display: none;
+  }
+}
+
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 44px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  padding: 0 50px;
+}
+
+.header a {
+  display: block;
+  width: 52px;
+  height: 39px;
+  padding: 11px;
+  margin: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.header a span {
+  background: #000;
+  display: block;
+  height: 2px;
+  margin: 6px 0;
+}
+
+@media screen and (min-width: 576px) {
+  .header a span {
+    height: 3px;
+  }
+}
+
+.header .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header a:before,
+.header a:after {
+  content: '';
+  display: block;
+  background: #000;
+  height: 3px;
+}
+
+.desktop_MenuBlock {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop_MenuBlock {
+    display: block;
+  }
+}
+
+.desktop_menu ul {
+  padding: unset;
+  margin: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.desktop_menu ul a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  .desktop_menu ul a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .desktop_menu ul a {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop_menu ul a {
+    font-size: 24px;
+  }
+}
+
+.desktop_menu ul li {
+  list-style: none;
+  margin-bottom: unset;
+}
+
+.desktop_menu ul li:hover > ul {
+  opacity: 1;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  -webkit-box-shadow: -1px 24px 35px -24px #000000;
+          box-shadow: -1px 24px 35px -24px #000000;
+}
+
+.desktop_menu ul li:hover > a {
+  color: red;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.desktop_menu ul li.current-menu-parent > a, .desktop_menu ul li.current-menu-item > a, .desktop_menu ul li.current-menu-ancestor > a {
+  color: red;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop_menu ul li:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .desktop_menu ul li:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop_menu ul li:not(:last-child) {
+    margin-right: 46px;
+  }
+}
+
+@media screen and (min-width: 1630px) {
+  .desktop_menu ul li:not(:last-child) {
+    margin-right: 76px;
+  }
+}
+
+.desktop_menu li.menu-item-has-children {
+  position: relative;
+}
+
+.desktop_menu li.menu-item-has-children > a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: -23px;
+  border-top: 11px solid #000;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  color: #000;
+}
+
+@media screen and (min-width: 1200px) {
+  .desktop_menu li.menu-item-has-children > a::after {
+    top: 6px;
+    right: -25px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .desktop_menu li.menu-item-has-children > a::after {
+    top: 7px;
+    border-top: 14px solid #000;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop_menu li.menu-item-has-children > a::after {
+    top: 9px;
+  }
+}
+
+.desktop_menu li.menu-item-has-children ul {
+  position: absolute;
+  top: 100%;
+  left: -7px;
+  padding: 5px 0 0;
+  margin: 0;
+  min-width: 198px;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 0;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  z-index: 2;
+}
+
+@media screen and (min-width: 1400px) {
+  .desktop_menu li.menu-item-has-children ul {
+    min-width: 225px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop_menu li.menu-item-has-children ul {
+    min-width: 227px;
+    left: -11px;
+  }
+}
+
+@media screen and (min-width: 1630px) {
+  .desktop_menu li.menu-item-has-children ul {
+    min-width: 250px;
+    left: -11px;
+  }
+}
+
+.desktop_menu li.menu-item-has-children ul a:hover:after {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 100%;
+}
+
+.desktop_menu li.menu-item-has-children li {
+  background: #fff;
+  margin-right: 0px !important;
+  padding: 5px 8px;
+  width: 100%;
+}
+
+.desktop_menu li.menu-item-has-children li:first-child {
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 1400px) {
+  .desktop_menu li.menu-item-has-children li {
+    padding: 10px 16px;
+  }
+}
+
+.desktop_menu li.menu-item-has-children li a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  color: pink;
+  display: inline-block;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.desktop_menu li.menu-item-has-children li a:hover {
+  color: pink;
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop_menu li.menu-item-has-children li a {
+    font-size: 18px;
+  }
+}
+
+.desktop_menu li.menu-item-has-children li a:after {
+  display: block;
+  content: '';
+  width: 0%;
+  height: 2px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: pink;
+}
+
+.desktop_menu li.menu-item-has-children li.current-menu-item > a:after, .desktop_menu li.menu-item-has-children li:hover > a:after {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

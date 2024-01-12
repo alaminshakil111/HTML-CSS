@@ -1,0 +1,84 @@
+@import '../scss/bootstrap';
+
+
+.accordionA{
+    .accordion-button{
+        box-shadow: unset!important;
+        &::after {
+            background-image: none;
+            font-family: "Font Awesome 5 Free";
+            content: "\f067";
+            display: inline-block;
+            padding-right: 3px;
+            vertical-align: middle;
+            font-weight: 900;
+        }
+        &:not(.collapsed)::after {
+            background-image: none;
+            font-family: "Font Awesome 5 Free";
+            content: "\f068";
+            display: inline-block;
+            padding-right: 3px;
+            vertical-align: middle;
+            font-weight: 900;
+        }
+    }
+}
+
+// ---------accordionA END---------
+
+.accordionB{
+    .accordion-item{
+        border: unset;
+        button{
+            width: 100%;
+            border: unset;
+            background-color: #4163b1!important;
+            color: #fff;
+            text-align: left;
+            padding: 14px 20px 14px 30px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-radius: 7px!important;
+            &::after {
+                background-image: none;
+                font-family: "Font Awesome 5 Free";
+                content: "\f067";
+                display: inline-block;
+                padding-right: 3px;
+                vertical-align: middle;
+                font-weight: 900;
+            }
+            &:not(.collapsed)::after {
+                background-image: none;
+                font-family: "Font Awesome 5 Free";
+                content: "\f068";
+                display: inline-block;
+                padding-right: 3px;
+                vertical-align: middle;
+                font-weight: 900;
+            }
+        }
+
+        .accordion-body{
+            border: 1px solid;
+            margin-bottom: 17px;
+            margin-top: -6px;
+            padding: 14px 10px;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

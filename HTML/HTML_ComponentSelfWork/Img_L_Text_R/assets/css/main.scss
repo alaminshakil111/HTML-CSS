@@ -1,0 +1,32 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+.ImgDetails1{
+    margin: 40px 0;
+
+    .ImgInner{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .ImgText{
+        margin-bottom: 25px;
+
+        h2,.h2{
+            margin: 15px 0px 5px 0px;
+        }
+    }
+    .ImgTextAlign{
+        display: flex;
+        align-items: center;
+    }
+
+
+}
+
+
+
+

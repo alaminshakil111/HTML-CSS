@@ -1,0 +1,110 @@
+
+@import "../scss/bootstrap";
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+.pagination1{
+    margin: 40px 0px;
+    @include min-width(992px){
+        margin: 60px 0px;
+
+    }
+}
+.pagionationInner1{
+    margin: 0 auto;
+    ul{
+        display: flex;
+        list-style: none;
+        margin-bottom: unset;
+        padding: unset;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            background-color: #7c7c7c;
+            color: #fff;
+            margin-right: 5px;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background-color: #ccc;
+                color: #000;
+
+            }
+        }
+    }
+}
+
+// pagionationInner 1 END -------
+
+.pagination2{
+    margin: 40px 0px;
+    @include min-width(992px){
+        margin: 60px 0px;
+
+    }
+}
+.pagionationInner2{
+    margin: 0 auto;
+    ul{
+        display: flex;
+        list-style: none;
+        margin-bottom: unset;
+        padding: unset;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            background-color: #7c7c7c;
+            color: #fff;
+            margin-right: 5px;
+            height: 25px;
+            width: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background-color: #ccc;
+                color: #000;
+            }
+        }
+    }
+}
+
+// pagionationInner 2 END -------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

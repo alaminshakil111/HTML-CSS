@@ -1,0 +1,37 @@
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+
+.megnify_sec{
+	padding: 30px 0;
+}
+.xzoom-thumbs {
+	margin: 10px 0;
+	a{
+		display: inline-block;
+		img{
+			margin: 0px;
+			height: 55px;
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

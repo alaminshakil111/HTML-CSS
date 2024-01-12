@@ -1,0 +1,650 @@
+
+.socialMediaA{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.4s;
+            transform: scale(1.4);
+            border-radius: 50%;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            transition: all 0.4s;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+                background: linear-gradient(0deg, (#4460C3)0%, (#EC4A56)25%, (#F6BA4D)50%, (#EC4B52)75%, (#C435A5)100%);
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+
+        }
+    }
+}
+
+// ---------socialMediaA-----------
+
+.socialMediaA1{
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.5s;
+            transform: scale(1.4);
+            border-radius: 3px;
+            border: 2px solid;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 50%;
+            color: #fff;
+            transition: all 0.5s;
+            border: 2px dotted;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+        }
+    }
+}
+
+// ------------ socialMediaA1 --------------
+
+.socialMediaB{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            background-color: rgba(33, 37, 68, 0.5);
+            &:hover > i{
+                transition: all 0.3s;
+                transform: scale(1.6);
+            }
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+        }
+        i{
+            transition: all 0.3s;
+        }
+    }
+}
+
+//--------------socialMediaB--------------
+
+.socialMediaB1{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover {
+            i{
+                color: unset;
+            }
+            a{
+                transition: all 0.3s;
+                transform: scale(1.5);
+                border-radius: 50px;
+                &.instagram{
+                    color: #D83E74;
+                    background-color: unset;
+                }
+                &.youtube{
+                    color: #F70000;
+                    background-color: unset;
+                }
+                &.facebook{
+                    color: #1299F6;
+                    background-color: unset;
+                }
+                &.twitter{
+                    color: #1C9CEA;
+                    background-color: unset;
+                }
+                &.pintarest{
+                    color: #B7081B;
+                    background-color: unset;
+                }
+                &.snapchat{
+                    color: #F7F401;
+                    background-color: unset;
+                }
+                &.linkdin{
+                    color: #0077B5;
+                    background-color: unset;
+                }
+                &.whatsapp{
+                    color: #10B519;
+                    background-color: unset;
+                }
+            }
+        }
+        
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            transition: all 0.3s;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+                border: 2px solid darken(#D83E74, 10%);
+            }
+            
+            &.youtube{
+                background-color: #F70000;
+                border: 2px solid darken(#F70000, 10%);
+            }
+            &.facebook{
+                background-color: #1299F6;
+                border: 2px solid darken(#1299F6, 10%);
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+                border: 2px solid darken(#1C9CEA, 10%);
+            }
+            &.pintarest{
+                background-color: #B7081B;
+                border: 2px solid darken(#B7081B, 10%);
+            }
+            &.snapchat{
+                background-color: #F7F401;
+                border: 2px solid darken(#F7F401, 10%);
+            }
+            &.linkdin{
+                background-color: #0077B5;
+                border: 2px solid darken(#0077B5, 10%);
+            }
+            &.whatsapp{
+                background-color: #10B519;
+                border: 2px solid darken(#10B519, 10%);
+            }
+
+        }
+        i{
+            color: #fff;
+        }
+    }
+}
+
+//--------------socialMediaB1--------------
+
+.socialMediaC{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.7s; 
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            transform: rotate(0deg);
+            transition: all 0.7s;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+        }
+    }
+}
+
+//--------------socialMediaC---------------
+
+.socialMediaC1{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.5s; 
+            transform: rotate(360deg);
+            border-radius: 50%;
+            border: 2px dotted;
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            transform: rotate(0deg);
+            transition: all 0.5s;
+            border: 2px solid;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+
+        }
+    }
+}
+
+//--------------socialMediaC1---------------
+
+.socialMediaD{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.4s; 
+            transform: translate(0px, -9px);
+            border-radius: 50%;
+        }
+
+        a{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            transform: translate(0px, 0px);
+            transition: all 0.4s;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.pintarest{
+                background-color: #B7081B;
+            }
+            &.snapchat{
+                background-color: #F7F401;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+        }
+    }
+}
+
+//--------------socialMediaD---------------
+
+.socialMediaE{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.5s; 
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        a{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            font-size: 16px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #fff;
+            transition: all 0.5s;
+            background-color: rgba(33, 37, 68, 0.5);
+
+            &.instagram{
+                background: linear-gradient(-44deg, #bd3f56 50%, #dc8696 50%);
+            }
+            &.youtube{
+                background: linear-gradient(-44deg, #a11818 50%, #FB3131 50%);
+            }
+            &.facebook{
+                background: linear-gradient(-44deg, #3A5898 50%, #858DDE 50%);
+            }
+            &.twitter{
+                background: linear-gradient(-44deg, #3A5898 50%, #62BDDB 50%);
+            }
+            &.pintarest{
+                background: linear-gradient(-44deg, #560523 50%, #C23747 50%);
+            }
+            &.snapchat{
+                background: linear-gradient(-44deg, #7f9506 50%, #F7F401 50%);
+            }
+            &.linkdin{
+                background: linear-gradient(-44deg, #215ad3 50%, #2C8DC0 50%);
+            }
+            &.whatsapp{
+                background: linear-gradient(-44deg, #07721e 50%, #58B25C 50%);
+            }
+        }
+    }
+}
+
+//--------------socialMediaE---------------
+
+.socialMediaF{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            border-radius: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 16px;
+            overflow: hidden;
+            position: relative;
+            color: #212121;
+            border: 2px solid #212121;
+            transition: border-radius 0.2s linear 0s;
+            transform: rotate(45deg);
+        }
+        i{
+            transition: transform 0.01s linear 0s;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+//-------------- socialMediaF ---------------
+
+.socialMediaG{
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    li{
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover{
+            a::after{
+                top: 5%;
+                transition: all 0.2s linear 0s;
+            }
+            i{
+                color: #fff;
+            }
+        } 
+    }
+    a{
+        text-decoration: none;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 16px;
+        overflow: hidden;
+        position: relative;
+        color: #212121;
+        border: 2px solid #212121;
+        transition: all 0.2s;
+        &:after{
+            content: "";
+            display: block;
+            width: 90%;
+            height: 90%;
+            top: -110%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            background-color: #212121;
+            border-radius: 50%;
+            color: #fff;
+            z-index: -1;
+        }
+    }
+}
+
+//--------------socialMediaG---------------
+
+.socialMediaH{
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover{
+            a{
+                // transition: border-radius 0.2s linear 0s;
+                transition: all 0.3s;
+                transform: rotate(45deg);
+            }
+            i{
+                transition: transform 0.01s linear 0s;
+                transform: rotate(-45deg);
+            }
+        }
+
+        a{
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 16px;
+            overflow: hidden;
+            position: relative;
+            color: #212121;
+            border: 2px solid #212121;
+            transition: all 0.3s;
+            
+        }
+    }
+}
+
+//-------------- socialMediaH ---------------

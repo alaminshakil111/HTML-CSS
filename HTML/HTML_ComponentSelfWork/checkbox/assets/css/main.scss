@@ -1,0 +1,146 @@
+@import '../scss/bootstrap';
+
+
+label.checkboxx {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  .checkboxInput{
+    display: none;
+    &:checked + .checkbox_box{
+      background-color: #000;
+      border: #000;
+      &:after{
+        transform: scale(1);
+      }
+    }
+  }
+  .checkbox_box{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: background-color 0.15s, border-color 0.15s;
+
+    &:after{
+      content: "\2713";
+      color: #fff;
+      transform: scale(0);
+      transition: transform 0.15s;
+
+    }
+  }
+}
+
+// -------------CHECKBOX 1 END--------------
+
+  label {
+    margin-bottom: 1rem;
+    line-height: 1;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+      input[type="checkbox"] + svg.checkbox {
+        .checkbox-box {
+          fill: rgb(0, 0, 0);
+          fill-opacity: 0.05;
+        }
+      }
+    }
+    input[type="checkbox"],label {
+      margin: 0;
+      padding: 0;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+      &:checked + svg.checkbox {
+        .checkbox-mark {
+          stroke-dashoffset: 0;
+          transition: stroke-dashoffset 0.2s linear;
+        }
+      }
+    }
+    svg.checkbox {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.5rem;
+
+      .checkbox-box,
+      .checkbox-mark {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+
+      .checkbox-mark {
+        stroke-linejoin: round;
+        stroke-dasharray: 120;
+        stroke-dashoffset: 120;
+      }
+    }
+
+    span.label-text {
+      font-size: small;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+
+  .reverse {
+    stroke-dashoffset: 120;
+    transition: stroke-dashoffset 0.2s linear;
+  }
+
+// -------------CHECKBOX 2 END------------
+
+label.radioo {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  .radioInput{
+    display: none;
+    &:checked + .radio_box{
+      background-color: #000;
+      border: #000;
+      &:after{
+        transform: scale(0.8);
+      }
+    }
+  }
+  .radio_box{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: background-color 0.15s, border-color 0.15s;
+    &:after{
+      content: "\1F518";
+      color: #fff;
+      transform: scale(0);
+      transition: transform 0.15s;
+      
+    }
+  }
+
+}
+
+// -----------RADIO 1 END-------

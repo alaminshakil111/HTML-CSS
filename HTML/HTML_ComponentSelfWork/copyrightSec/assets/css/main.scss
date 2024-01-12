@@ -1,0 +1,129 @@
+@import '../scss/bootstrap';
+
+
+.copyRight1{
+  background-color: #000000;
+  padding: 20px 0;
+  color: #ccc;
+  .text{
+    text-align: center;
+  }
+  .companyName{
+    text-align: center;
+    padding-top: 5px;
+    a{
+      color: #1184E8;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+
+    }
+  }
+
+}
+@media (min-width:768px){
+  .copyRight1{
+    .text{
+      text-align: left;
+    }
+    .companyName{
+      text-align: right;
+      padding-top: 0;
+    }
+  }
+}
+// -----------copyRight 1 END---------
+
+.copyRight2{
+  background-color: #000000;
+  color: #ccc;
+  padding: 20px 0;
+  .text{
+    text-align: center;
+    a{
+      color: #1184E8;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+
+    }
+  }
+  
+
+  ul{
+    padding: unset;
+    margin: unset;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    a{
+      color: #fff;
+      padding: 0px 6px;
+    }
+  }  
+}
+
+@media (min-width:768px){
+  .copyRight2{
+    .text{
+      text-align: left;
+    }
+    ul{
+      justify-content: right;
+    }
+  }
+}
+
+// -----------copyRight 2 END---------
+
+.copyRight3{
+  background-color: #000000;
+  color: #ccc;
+  padding: 20px 0;
+  .text{
+    text-align: center;
+  }
+  .cmenu{
+    text-align: center;
+    a{
+      color: #1184E8;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+
+    }
+  }
+  ul{
+    padding: unset;
+    margin: unset;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    a{
+      color: #fff;
+      padding: 0px 6px;
+    }
+  }
+
+}
+
+@media (min-width:768px){
+  .copyRight3{
+    .text{
+      text-align: left;
+    }
+    .cmenu{
+      text-align: right;
+    }
+    ul{
+      justify-content: right;
+    }
+  }
+}
+
+// -----------copyRight 3 END---------

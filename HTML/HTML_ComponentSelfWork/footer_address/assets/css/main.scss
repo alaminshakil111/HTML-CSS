@@ -1,0 +1,134 @@
+@import "../scss/bootstrap";
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+.footerAddress1{
+    margin: 40px 0;
+}
+.ftradressInner{
+    width: 270px;
+    max-width: 100%;
+
+    .footerLogo{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.footeraddress{
+    margin-top: 10px;
+    line-height: 20px;
+    p{
+        font-size: 15px;
+        strong{
+            font-size: 16px;
+        }
+    }
+}
+.footercntct{
+    ul{
+        list-style: none;
+        padding: unset;
+        margin: unset;
+        li{
+            position: relative;
+            padding-left: 25px;
+            &:not(:last-child){
+                margin-bottom: 5px;
+                margin-right: 5px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+
+            i{
+                color: #0077B5;
+                position: absolute;
+                left: 0;
+                top: 5px;
+            }
+        }
+    }
+}
+.footerMedia{
+    margin-top: 13px;
+    ul{
+        display: flex;
+        padding: unset;
+        margin: unset;
+        justify-content: center;
+    }
+    li{
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:hover > a{
+            transition: all 0.5s; 
+            transform: rotate(360deg);
+            border-radius: 50%;
+            border: 2px dotted;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: #fff;
+            transform: rotate(0deg);
+            transition: all 0.5s;
+            border: 2px solid;
+            background-color: rgba(33, 37, 68, 0.5);
+            &.instagram{
+                background-color: #D83E74;
+            }
+            &.youtube{
+                background-color: #F70000;
+            }
+            &.facebook{
+                background-color: #1299F6;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.twitter{
+                background-color: #1C9CEA;
+            }
+            &.linkdin{
+                background-color: #0077B5;
+            }
+            &.whatsapp{
+                background-color: #10B519;
+            }
+
+        }
+    }
+}
+
+// footerAddress 1 END -------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

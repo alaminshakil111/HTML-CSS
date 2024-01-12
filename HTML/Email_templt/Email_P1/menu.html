@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>menu</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		/*.humbarger-icon{
+			background-color: #797373;
+			text-align: right;
+			padding: 10px 30px;
+			width: 100%;
+			transition: 0.4s all ease-in-out;
+			-webkit-transition: 0.4s all ease-in-out;
+		}
+		.humbarger-icon.bg-color{
+			background-color: #ff5722;
+		}*/
+		.material-icons{
+			display: inline-block;
+			background-color: orange;
+			padding: 5px;
+			color: #fff;
+			border-radius: 2px;
+			cursor: pointer;
+		}
+		.menu{
+			background-color: #101625;
+		    position: fixed;
+		    width: 230px;
+		    top: 0;
+		    left: -100%;
+		    transition: 0.4s all ease-in-out;
+			-webkit-transition: 0.4s all ease-in-out;
+			height: 100vh;
+			overflow-y: auto;
+		}
+		.menu.show{
+			left: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		ul>li{
+			text-align: center;
+		}
+		ul>li a{
+			color: #fff;
+			display: block;
+			padding: 10px;
+			font-weight: 700;
+			border-bottom: 1px solid #fdfdff;
+		}
+	</style>
+</head>
+<body>
+<div class="humbarger-icon" style="text-align: right; padding: 10px;">
+	<i class="material-icons">reorder</i>
+</div>
+<nav class="menu">
+	<ul>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+		<li><a href="#">Menu#1</a></li>
+	</ul>
+</nav>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$(".material-icons").click(function(){
+  			$(".menu").toggleClass("show");
+  		});
+  	});
+  </script>
+</body>
+</html>

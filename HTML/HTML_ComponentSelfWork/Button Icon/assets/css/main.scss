@@ -1,0 +1,290 @@
+@import '../scss/bootstrap';
+
+
+.buttonA{
+    .btn{
+        padding: 0px 0px 0px 0px;  // unset
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        i{
+            background-color: rgba(000, 000, 000, 0.3);  // unset
+            padding: 14px 10px;  // unset
+        }
+        .btntext{
+            width: 100%;
+            padding: 0px 10px;  // unset
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;  // 43px
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.5s;
+            left: 40px;    // 0px
+            bottom: 0;
+            overflow: hidden;
+            z-index: -2;
+
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.5s;
+
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+}
+
+// ---------- btn1------
+
+.buttonB{
+    .btn{
+        padding: 0px 0px 0px 0px;
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        span.btntext{
+            width: 100%;
+            padding: 0px 10px;
+        }
+        i{
+            background-color: rgba(000, 000, 000, 0.3);
+            padding: 14px 10px;
+
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.5s;
+            right: 40px;
+            top: 0;
+            overflow: hidden;
+            z-index: -2;
+
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.5s;
+
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+}
+
+// ---------- btn2------
+
+.buttonC{
+    .btn{
+        padding: 0px 0px 0px 0px;
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        i{
+            background-color: rgba(000, 000, 000, 0.3);
+            clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
+            padding: 14px 10px;
+
+        }
+        .btntext{
+            width: 100%;
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.4s;
+            left: 0px;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -2;
+
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.4s;
+            // background-color: rgba(000, 000, 000, 0.3);
+            // clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 100%);
+
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+}
+
+// ---------- btn3------
+
+.buttonD{
+    .btn{
+        padding: 0px 0px 0px 0px;
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        span.btntext{
+            width: 100%;
+        }
+        i{
+            background-color: rgba(000, 000, 000, 0.3);
+            clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
+            padding: 14px 10px;
+
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.4s;
+            right: 0;
+            top: 0;
+            overflow: hidden;
+            z-index: -2;
+
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.4s;
+
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+}
+
+// ---------- btn4------
+
+.buttonE{
+    .btn{
+        padding: 0px 0px 0px 0px;
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        span.btntext{
+            width: 100%;
+            padding: 10px 10px;
+        }
+        i{
+            padding: 10px 10px;
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.4s;
+            right: 0;
+            top: 0;
+            overflow: hidden;
+            z-index: -2;
+
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.4s;
+
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+
+}
+
+// ---------- btn5------
+
+.buttonF{
+    .btn{
+        padding: 0px 0px 0px 0px;
+        min-width: 120px;
+        box-shadow: unset!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        span.btntext{
+            width: 100%;
+            padding: 10px 10px;
+        }
+        i{
+            padding: 10px 10px;
+        }
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: rgba(000, 000, 000, 0.3);
+            transition: all 0.4s;
+            left: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -2;
+        }
+        &:hover:after{
+            width: 100%;
+            transition: all 0.4s;
+        }
+        &:active{
+            transform: scale(0.9);
+            transition: all 0.2s;
+        }
+    }
+}
+
+// ---------- btn6------

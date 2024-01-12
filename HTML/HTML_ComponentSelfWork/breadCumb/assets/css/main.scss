@@ -1,0 +1,93 @@
+@import "../scss/bootstrap";
+
+@mixin min-width($arg) {
+    @media screen and (min-width: ($arg)) {
+        @content;
+    }
+}
+
+.breadcumbs1{
+    margin: 40px 0;
+    @include min-width(992px){
+        margin: 70px 0;
+    }
+    ol{
+        a{
+            color: #000;
+        }
+    }
+}
+
+
+
+// breadcumbs 1 END -------
+
+.breadcumbs2{
+    margin: 40px 0;
+    @include min-width(992px){
+        margin: 70px 0;
+    }
+}
+
+.breadcumbsInner2{
+    ul{
+        list-style: none;
+        padding: unset;
+        display: flex;
+        flex-wrap: wrap;
+       a{
+            text-decoration: none;
+            position: relative;
+            padding-right: 15px;
+            padding-left: 15px;
+           &::before{
+                display: block;
+                position: absolute;
+                content: "\f105";
+                right: 0px;
+                font-family: "Font Awesome 6 Free";
+                font-weight: 700;
+           }
+       }
+    }
+}
+
+// breadcumbs 3 END --------
+
+.breadcumbsInner3{
+    ul{
+        list-style: none;
+        padding: unset;
+        display: flex;
+        flex-wrap: wrap;
+        a{
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+            background: #ccc;
+            padding: 5px 10px 5px 18px;
+            margin: 0px 10px 0px 0px;
+            font-size: 13px;
+
+            &::after{
+                content: "";
+                border-top: 15px solid transparent;
+                border-bottom: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                right: -15px;
+                top: 0;
+                position: absolute;
+                z-index: 1;
+            }
+            &::before{
+                content: "";
+                border-top: 15px solid transparent;
+                border-bottom: 15px solid transparent;
+                border-left: 13px solid #fff;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
+}
