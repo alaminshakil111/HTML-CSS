@@ -1,4 +1,5 @@
-$('.memberSliderInner').slick({
+$(document).ready(function(){
+  $('.memberSliderInner').slick({
     infinite: true,
     arrows: false,
     slidesToShow: 4,
@@ -38,6 +39,7 @@ $('.memberSliderInner').slick({
         }
       ]
   });
+});
 
 
 

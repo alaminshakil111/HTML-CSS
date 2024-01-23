@@ -4,7 +4,6 @@
     margin: 0 auto;
   }
 }
-
 img {
   width: 100%;
   height: auto;
@@ -17,7 +16,6 @@ img {
 .BlogSec3 {
   margin: 40px 0;
 }
-
 @media screen and (min-width: 992px) {
   .BlogSec3 {
     margin: 60px 0;
@@ -25,15 +23,11 @@ img {
 }
 
 .blogcardInner {
-  -webkit-box-shadow: 0px 0px 2px 2px #888888;
-          box-shadow: 0px 0px 2px 2px #888888;
+  box-shadow: 0px 0px 2px 2px #888888;
   margin: 20px 0px 10px 0px;
 }
-
 @media screen and (min-width: 768px) {
   .blogcardInner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -41,48 +35,37 @@ img {
 .bloCardVideo {
   position: relative;
 }
-
 .bloCardVideo:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 0.4s;
+  transform: scale(1.1);
   transition: all 0.4s;
 }
-
 .bloCardVideo .blogCardVideoInner {
   overflow: hidden;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 @media screen and (min-width: 768px) {
   .bloCardVideo .blogCardVideoInner {
     height: 100%;
     width: 300px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .bloCardVideo .blogCardVideoInner {
     width: 410px;
   }
 }
-
 @media screen and (min-width: 1600px) {
   .bloCardVideo .blogCardVideoInner {
     width: 510px;
   }
 }
-
 .bloCardVideo .blogCardVideoInner img {
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .bloCardVideo a {
   text-decoration: none;
   position: absolute;
@@ -96,13 +79,10 @@ img {
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1) translate(-50%, -50%);
-          transform: scale(1) translate(-50%, -50%);
+  transform: scale(1) translate(-50%, -50%);
   cursor: pointer;
 }
-
 @media screen and (min-width: 1600px) {
   .bloCardVideo a {
     line-height: 2.7;
@@ -111,89 +91,66 @@ img {
     font-size: 26px;
   }
 }
-
 .bloCardVideo a:hover i {
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
-  -webkit-transition: all 0.4s;
+  transform: scale(1.4);
   transition: all 0.4s;
 }
-
 .bloCardVideo a i {
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 
 .blogCardPara {
   padding: 15px 15px;
 }
-
 @media screen and (min-width: 1200px) {
   .blogCardPara {
     padding: 40px 37px;
   }
 }
-
 @media screen and (min-width: 1600px) {
   .blogCardPara {
     padding: 76px 59px;
   }
 }
-
 .blogCardPara ul {
   list-style: none;
   padding: unset;
   margin: unset;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .blogCardPara ul a {
   text-decoration: none;
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blogCardPara ul a:hover {
   text-decoration: underline;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blogCardPara .btn {
   border-radius: unset;
   border: 1px solid #AAA;
   font-size: 12px;
 }
-
 @media screen and (min-width: 1600px) {
   .blogCardPara .btn {
     font-size: 13px;
     margin-top: 18px;
   }
 }
-
 .blogCardPara .btn:hover {
   color: #00a8b5;
   border: 1px solid #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blogCardPara .btn:active {
-  -webkit-transform: scale(0.92) rotate(-4deg);
-          transform: scale(0.92) rotate(-4deg);
-  -webkit-transition: all 0.4s;
+  transform: scale(0.92) rotate(-4deg);
   transition: all 0.4s;
 }
-
 .blogCardPara .PostHeader h2, .blogCardPara .PostHeader .h2 {
   position: relative;
   margin-bottom: 0;
 }
-
 .blogCardPara .PostHeader h2:before, .blogCardPara .PostHeader .h2:before {
   content: "";
   display: block;
@@ -202,24 +159,19 @@ img {
   background: #00a8b5;
   margin: 6px 0;
 }
-
 .blogCardPara .PostHeader h2 a, .blogCardPara .PostHeader .h2 a {
   text-decoration: none;
   color: #000;
 }
-
 .blogCardPara .PostHeader h2 a:hover, .blogCardPara .PostHeader .h2 a:hover {
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   cursor: pointer;
 }
-
 .blogCardPara .PostHeader em {
   font-size: 11px;
   display: block;
 }
-
 .blogCardPara .PostHeader .dateAuthor {
   font-size: 13px;
   color: #AAA;
@@ -265,24 +217,20 @@ img {
 .blogM_left .media-wrapper {
   margin: 10px 0;
 }
-
 .blogM_left video {
   height: 400px;
 }
-
 @media screen and (min-width: 1200px) {
   .blogM_left video {
     height: 500px;
     margin-bottom: 30px;
   }
 }
-
 @media screen and (min-width: 1600px) {
   .blogM_left video {
     height: 650px;
   }
 }
-
 .blogM_left .blogCardImgSlider {
   margin-bottom: 30px;
 }
@@ -290,49 +238,36 @@ img {
 .blogcardSingle {
   padding: 15px 15px;
 }
-
 @media screen and (min-width: 1200px) {
   .blogcardSingle {
     padding: 40px 37px;
   }
 }
-
 @media screen and (min-width: 1600px) {
   .blogcardSingle {
     padding: 76px 59px;
   }
 }
-
 .blogcardSingle ul {
   list-style: none;
   padding: unset;
   margin: unset;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .blogcardSingle ul a {
   text-decoration: none;
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blogcardSingle ul a:hover {
   text-decoration: underline;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blogcardSingle .blogcardSingleHeader h2, .blogcardSingle .blogcardSingleHeader .h2 {
   position: relative;
   margin-bottom: 0;
 }
-
 .blogcardSingle .blogcardSingleHeader h2:before, .blogcardSingle .blogcardSingleHeader .h2:before {
   content: "";
   display: block;
@@ -341,24 +276,19 @@ img {
   background: #00a8b5;
   margin: 6px auto;
 }
-
 .blogcardSingle .blogcardSingleHeader h2 a, .blogcardSingle .blogcardSingleHeader .h2 a {
   text-decoration: none;
   color: #000;
 }
-
 .blogcardSingle .blogcardSingleHeader h2 a:hover, .blogcardSingle .blogcardSingleHeader .h2 a:hover {
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   cursor: pointer;
 }
-
 .blogcardSingle .blogcardSingleHeader em {
   font-size: 11px;
   display: block;
 }
-
 .blogcardSingle .blogcardSingleHeader .dateAuthor {
   font-size: 13px;
   color: #AAA;
@@ -373,7 +303,6 @@ img {
   margin-top: 15px;
   margin-bottom: 16px;
 }
-
 .blogVideo iframe {
   position: absolute;
   top: 0;
@@ -387,13 +316,11 @@ img {
   padding: 22px 15px;
   margin-top: 50px;
 }
-
 .socialMediaF h4, .socialMediaF .h4 {
   color: #fff;
   position: relative;
   margin-bottom: 35px;
 }
-
 .socialMediaF h4::after, .socialMediaF .h4::after {
   display: block;
   position: absolute;
@@ -403,7 +330,6 @@ img {
   background-color: #ffffff;
   bottom: -15px;
 }
-
 .socialMediaF h4::before, .socialMediaF .h4::before {
   display: block;
   position: absolute;
@@ -413,47 +339,31 @@ img {
   background-color: #ffffff;
   bottom: -19px;
 }
-
 .socialMediaF ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: unset;
   padding: unset;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 34px;
 }
-
 .socialMediaF li {
   list-style: none;
 }
-
 .socialMediaF li:not(:last-child) {
   margin-right: 5px;
   margin-bottom: 7px;
 }
-
 .socialMediaF li:hover > a {
   border-radius: 0px;
 }
-
 .socialMediaF li a {
   text-decoration: none;
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 50%;
   font-size: 16px;
@@ -461,19 +371,12 @@ img {
   position: relative;
   color: #212121;
   border: 2px solid #212121;
-  -webkit-transition: border-radius 0.2s linear 0s;
   transition: border-radius 0.2s linear 0s;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .socialMediaF li i {
-  -webkit-transition: -webkit-transform 0.01s linear 0s;
-  transition: -webkit-transform 0.01s linear 0s;
   transition: transform 0.01s linear 0s;
-  transition: transform 0.01s linear 0s, -webkit-transform 0.01s linear 0s;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .lokingSearch {
@@ -481,25 +384,21 @@ img {
   padding: 22px 15px;
   margin-top: 130px;
 }
-
 @media screen and (min-width: 1200px) {
   .lokingSearch {
     margin-top: 150px;
   }
 }
-
 @media screen and (min-width: 1400px) {
   .lokingSearch {
     margin-top: 255px;
   }
 }
-
 .lokingSearch h4, .lokingSearch .h4 {
   color: #fff;
   position: relative;
   margin-bottom: 35px;
 }
-
 .lokingSearch h4::after, .lokingSearch .h4::after {
   display: block;
   position: absolute;
@@ -509,7 +408,6 @@ img {
   background-color: #ffffff;
   bottom: -15px;
 }
-
 .lokingSearch h4::before, .lokingSearch .h4::before {
   display: block;
   position: absolute;
@@ -519,18 +417,15 @@ img {
   background-color: #ffffff;
   bottom: -19px;
 }
-
 .lokingSearch form {
   position: relative;
 }
-
 .lokingSearch form input {
   width: 100%;
   outline: none;
   padding-right: 50px;
   min-height: 42px;
 }
-
 .lokingSearch form i {
   position: absolute;
   background: #000;
@@ -548,19 +443,16 @@ img {
   margin-top: 50px;
   background-color: #000;
 }
-
 .latestPost h4, .latestPost .h4 {
   color: #fff;
   position: relative;
   margin-bottom: 35px;
 }
-
 @media screen and (min-width: 1400px) {
   .latestPost h4, .latestPost .h4 {
     font-size: 28px;
   }
 }
-
 .latestPost h4::after, .latestPost .h4::after {
   display: block;
   position: absolute;
@@ -570,7 +462,6 @@ img {
   background-color: #AAA;
   bottom: -15px;
 }
-
 .latestPost h4::before, .latestPost .h4::before {
   display: block;
   position: absolute;
@@ -580,17 +471,13 @@ img {
   background-color: #AAA;
   bottom: -19px;
 }
-
 .latestPost .LPinner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: flex;
   border-bottom: 1px solid #303030;
   margin-bottom: 28px;
   padding-bottom: 25px;
 }
-
 .latestPost .LpInnerImg {
   width: 78px;
   height: 78px;
@@ -598,7 +485,6 @@ img {
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .latestPost .LpInnerImg img {
   width: 100%;
   height: 100%;
@@ -617,60 +503,46 @@ img {
   list-style: none;
   padding: unset;
   margin: unset;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .LpDiscript ul a {
   text-decoration: none;
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   font-size: 14px;
 }
-
 .LpDiscript ul a:hover {
   text-decoration: underline;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .LpDiscript .LpDiscriptHeader h2, .LpDiscript .LpDiscriptHeader .h2 {
   position: relative;
   margin-bottom: 0;
   font-size: 16px;
 }
-
 @media screen and (min-width: 1400px) {
   .LpDiscript .LpDiscriptHeader h2, .LpDiscript .LpDiscriptHeader .h2 {
     font-size: 18px;
   }
 }
-
 .LpDiscript .LpDiscriptHeader h2 a, .LpDiscript .LpDiscriptHeader .h2 a {
   text-decoration: none;
   color: #fff;
   margin: 5px 0;
   display: inline-block;
 }
-
 .LpDiscript .LpDiscriptHeader h2 a:hover, .LpDiscript .LpDiscriptHeader .h2 a:hover {
   color: #00a8b5;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   cursor: pointer;
 }
-
 .LpDiscript .LpDiscriptHeader em {
   font-size: 11px;
   display: block;
 }
-
 .LpDiscript .LpDiscriptHeader .dateAuthor {
   font-size: 13px;
   color: #AAA;
   margin: 6px 0;
   font-style: italic;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

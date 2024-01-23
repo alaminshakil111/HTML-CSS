@@ -1,181 +1,123 @@
 .socialMediaA ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaA li {
   list-style: none;
 }
-
 .socialMediaA li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaA li:hover > a {
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+  transform: scale(1.4);
   border-radius: 50%;
 }
-
 .socialMediaA li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 2px;
   color: #fff;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaA li a.instagram {
   background-color: #D83E74;
-  background: -webkit-gradient(linear, left bottom, left top, from(#4460C3), color-stop(25%, #EC4A56), color-stop(50%, #F6BA4D), color-stop(75%, #EC4B52), to(#C435A5));
   background: linear-gradient(0deg, #4460C3 0%, #EC4A56 25%, #F6BA4D 50%, #EC4B52 75%, #C435A5 100%);
 }
-
 .socialMediaA li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaA li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaA li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaA li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaA li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaA li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaA li a.whatsapp {
   background-color: #10B519;
 }
 
 .socialMediaA1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaA1 li {
   list-style: none;
 }
-
 .socialMediaA1 li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaA1 li:hover > a {
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+  transform: scale(1.4);
   border-radius: 3px;
   border: 2px solid;
 }
-
 .socialMediaA1 li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 50%;
   color: #fff;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border: 2px dotted;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaA1 li a.instagram {
   background-color: #D83E74;
 }
-
 .socialMediaA1 li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaA1 li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaA1 li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaA1 li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaA1 li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaA1 li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaA1 li a.whatsapp {
   background-color: #10B519;
 }
 
 .socialMediaB ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaB li {
   list-style: none;
 }
-
 .socialMediaB li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaB li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
@@ -184,520 +126,368 @@
   color: #fff;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaB li a:hover > i {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
+  transform: scale(1.6);
 }
-
 .socialMediaB li a.instagram {
   background-color: #D83E74;
 }
-
 .socialMediaB li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaB li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaB li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaB li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaB li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaB li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaB li a.whatsapp {
   background-color: #10B519;
 }
-
 .socialMediaB li i {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .socialMediaB1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaB1 li {
   list-style: none;
 }
-
 .socialMediaB1 li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaB1 li:hover i {
   color: unset;
 }
-
 .socialMediaB1 li:hover a {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   border-radius: 50px;
 }
-
 .socialMediaB1 li:hover a.instagram {
   color: #D83E74;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.youtube {
   color: #F70000;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.facebook {
   color: #1299F6;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.twitter {
   color: #1C9CEA;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.pintarest {
   color: #B7081B;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.snapchat {
   color: #F7F401;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.linkdin {
   color: #0077B5;
   background-color: unset;
 }
-
 .socialMediaB1 li:hover a.whatsapp {
   color: #10B519;
   background-color: unset;
 }
-
 .socialMediaB1 li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 2px;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaB1 li a.instagram {
   background-color: #D83E74;
   border: 2px solid #bd265b;
 }
-
 .socialMediaB1 li a.youtube {
   background-color: #F70000;
   border: 2px solid #c40000;
 }
-
 .socialMediaB1 li a.facebook {
   background-color: #1299F6;
   border: 2px solid #087dcd;
 }
-
 .socialMediaB1 li a.twitter {
   background-color: #1C9CEA;
   border: 2px solid #127fc1;
 }
-
 .socialMediaB1 li a.pintarest {
   background-color: #B7081B;
   border: 2px solid #860614;
 }
-
 .socialMediaB1 li a.snapchat {
   background-color: #F7F401;
   border: 2px solid #c4c201;
 }
-
 .socialMediaB1 li a.linkdin {
   background-color: #0077B5;
   border: 2px solid #005582;
 }
-
 .socialMediaB1 li a.whatsapp {
   background-color: #10B519;
   border: 2px solid #0c8613;
 }
-
 .socialMediaB1 li i {
   color: #fff;
 }
 
 .socialMediaC ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaC li {
   list-style: none;
 }
-
 .socialMediaC li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaC li:hover > a {
-  -webkit-transition: all 0.7s;
   transition: all 0.7s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
   border-radius: 50%;
 }
-
 .socialMediaC li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 2px;
   color: #fff;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: all 0.7s;
+  transform: rotate(0deg);
   transition: all 0.7s;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaC li a.instagram {
   background-color: #D83E74;
 }
-
 .socialMediaC li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaC li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaC li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaC li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaC li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaC li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaC li a.whatsapp {
   background-color: #10B519;
 }
 
 .socialMediaC1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaC1 li {
   list-style: none;
 }
-
 .socialMediaC1 li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaC1 li:hover > a {
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
   border-radius: 50%;
   border: 2px dotted;
 }
-
 .socialMediaC1 li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 2px;
   color: #fff;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: all 0.5s;
+  transform: rotate(0deg);
   transition: all 0.5s;
   border: 2px solid;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaC1 li a.instagram {
   background-color: #D83E74;
 }
-
 .socialMediaC1 li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaC1 li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaC1 li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaC1 li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaC1 li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaC1 li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaC1 li a.whatsapp {
   background-color: #10B519;
 }
 
 .socialMediaD ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaD li {
   list-style: none;
 }
-
 .socialMediaD li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaD li:hover > a {
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  -webkit-transform: translate(0px, -9px);
-          transform: translate(0px, -9px);
+  transform: translate(0px, -9px);
   border-radius: 50%;
 }
-
 .socialMediaD li a {
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   font-size: 14px;
   border-radius: 2px;
   color: #fff;
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
-  -webkit-transition: all 0.4s;
+  transform: translate(0px, 0px);
   transition: all 0.4s;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaD li a.instagram {
   background-color: #D83E74;
 }
-
 .socialMediaD li a.youtube {
   background-color: #F70000;
 }
-
 .socialMediaD li a.facebook {
   background-color: #1299F6;
 }
-
 .socialMediaD li a.twitter {
   background-color: #1C9CEA;
 }
-
 .socialMediaD li a.pintarest {
   background-color: #B7081B;
 }
-
 .socialMediaD li a.snapchat {
   background-color: #F7F401;
 }
-
 .socialMediaD li a.linkdin {
   background-color: #0077B5;
 }
-
 .socialMediaD li a.whatsapp {
   background-color: #10B519;
 }
 
 .socialMediaE ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaE li {
   list-style: none;
 }
-
 .socialMediaE li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaE li:hover > a {
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-
 .socialMediaE li a {
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 35px;
   font-size: 16px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   color: #fff;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: rgba(33, 37, 68, 0.5);
 }
-
 .socialMediaE li a.instagram {
   background: linear-gradient(-44deg, #bd3f56 50%, #dc8696 50%);
 }
-
 .socialMediaE li a.youtube {
   background: linear-gradient(-44deg, #a11818 50%, #FB3131 50%);
 }
-
 .socialMediaE li a.facebook {
   background: linear-gradient(-44deg, #3A5898 50%, #858DDE 50%);
 }
-
 .socialMediaE li a.twitter {
   background: linear-gradient(-44deg, #3A5898 50%, #62BDDB 50%);
 }
-
 .socialMediaE li a.pintarest {
   background: linear-gradient(-44deg, #560523 50%, #C23747 50%);
 }
-
 .socialMediaE li a.snapchat {
   background: linear-gradient(-44deg, #7f9506 50%, #F7F401 50%);
 }
-
 .socialMediaE li a.linkdin {
   background: linear-gradient(-44deg, #215ad3 50%, #2C8DC0 50%);
 }
-
 .socialMediaE li a.whatsapp {
   background: linear-gradient(-44deg, #07721e 50%, #58B25C 50%);
 }
 
 .socialMediaF ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaF li {
   list-style: none;
 }
-
 .socialMediaF li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaF li:hover > a {
   border-radius: 0px;
 }
-
 .socialMediaF li a {
   text-decoration: none;
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 50%;
   font-size: 16px;
@@ -705,65 +495,43 @@
   position: relative;
   color: #212121;
   border: 2px solid #212121;
-  -webkit-transition: border-radius 0.2s linear 0s;
   transition: border-radius 0.2s linear 0s;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .socialMediaF li i {
-  -webkit-transition: -webkit-transform 0.01s linear 0s;
-  transition: -webkit-transform 0.01s linear 0s;
   transition: transform 0.01s linear 0s;
-  transition: transform 0.01s linear 0s, -webkit-transform 0.01s linear 0s;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .socialMediaG ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
-
 .socialMediaG li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaG li:hover a::after {
   top: 5%;
-  -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-
 .socialMediaG li:hover i {
   color: #fff;
 }
-
 .socialMediaG a {
   text-decoration: none;
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   font-size: 16px;
   overflow: hidden;
   position: relative;
   color: #212121;
   border: 2px solid #212121;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-
 .socialMediaG a:after {
   content: "";
   display: block;
@@ -781,55 +549,34 @@
 }
 
 .socialMediaH ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .socialMediaH li {
   list-style: none;
 }
-
 .socialMediaH li:not(:last-child) {
   margin-right: 5px;
 }
-
 .socialMediaH li:hover a {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .socialMediaH li:hover i {
-  -webkit-transition: -webkit-transform 0.01s linear 0s;
-  transition: -webkit-transform 0.01s linear 0s;
   transition: transform 0.01s linear 0s;
-  transition: transform 0.01s linear 0s, -webkit-transform 0.01s linear 0s;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-
 .socialMediaH li a {
   text-decoration: none;
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 16px;
   overflow: hidden;
   position: relative;
   color: #212121;
   border: 2px solid #212121;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

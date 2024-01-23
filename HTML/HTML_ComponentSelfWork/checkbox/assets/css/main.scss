@@ -7,16 +7,6 @@ label.checkboxx {
   cursor: pointer;
   user-select: none;
 
-  .checkboxInput{
-    display: none;
-    &:checked + .checkbox_box{
-      background-color: #000;
-      border: #000;
-      &:after{
-        transform: scale(1);
-      }
-    }
-  }
   .checkbox_box{
     width: 20px;
     height: 20px;
@@ -35,6 +25,17 @@ label.checkboxx {
       transform: scale(0);
       transition: transform 0.15s;
 
+    }
+  }
+
+  .checkboxInput{
+    display: none;
+    &:checked + .checkbox_box{
+      background-color: #000;
+      border: #000;
+      &:after{
+        transform: scale(1);
+      }
     }
   }
 }

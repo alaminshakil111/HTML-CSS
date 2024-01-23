@@ -3,7 +3,7 @@
 
 .buttonA{
     .btn{
-        padding: 0px 0px 0px 0px;  // unset
+        padding: 0px 0px 0px 0px;
         min-width: 120px;
         box-shadow: unset!important;
         display: inline-flex;
@@ -12,24 +12,25 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
+        border: unset;
 
         i{
-            background-color: rgba(000, 000, 000, 0.3);  // unset
-            padding: 14px 10px;  // unset
+            
+            padding: 14px 10px;
         }
         .btntext{
             width: 100%;
-            padding: 0px 10px;  // unset
+            padding: 0px 10px;
         }
         &::after{
             display: block;
             content: "";
             position: absolute;
-            width: 0;  // 43px
+            width: 40px;
             height: 100%;
             background-color: rgba(000, 000, 000, 0.3);
             transition: all 0.5s;
-            left: 40px;    // 0px
+            left: 0px;
             bottom: 0;
             overflow: hidden;
             z-index: -2;
@@ -60,13 +61,14 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
+        border: unset;
 
-        span.btntext{
+        .btntext{
             width: 100%;
             padding: 0px 10px;
         }
         i{
-            background-color: rgba(000, 000, 000, 0.3);
+           
             padding: 14px 10px;
 
         }
@@ -74,11 +76,11 @@
             display: block;
             content: "";
             position: absolute;
-            width: 0;
+            width: 40px;
             height: 100%;
             background-color: rgba(000, 000, 000, 0.3);
             transition: all 0.5s;
-            right: 40px;
+            right: 0px;
             top: 0;
             overflow: hidden;
             z-index: -2;
@@ -109,23 +111,24 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
+        border: unset;
 
         i{
-            background-color: rgba(000, 000, 000, 0.3);
-            clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
             padding: 14px 10px;
 
         }
         .btntext{
             width: 100%;
+            padding: 0px 10px
         }
         &::after{
             display: block;
             content: "";
             position: absolute;
-            width: 0;
+            width: 40px;
             height: 100%;
             background-color: rgba(000, 000, 000, 0.3);
+            clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
             transition: all 0.4s;
             left: 0px;
             bottom: 0;
@@ -136,8 +139,7 @@
         &:hover:after{
             width: 100%;
             transition: all 0.4s;
-            // background-color: rgba(000, 000, 000, 0.3);
-            // clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
         }
         &:active{
@@ -160,12 +162,12 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
-        span.btntext{
+        border: unset;
+        .btntext{
             width: 100%;
+            padding: 0px 10px
         }
-        i{
-            background-color: rgba(000, 000, 000, 0.3);
-            clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
+        i{            
             padding: 14px 10px;
 
         }
@@ -173,9 +175,10 @@
             display: block;
             content: "";
             position: absolute;
-            width: 0;
+            width: 40px;
             height: 100%;
             background-color: rgba(000, 000, 000, 0.3);
+            clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
             transition: all 0.4s;
             right: 0;
             top: 0;
@@ -185,6 +188,7 @@
         }
         &:hover:after{
             width: 100%;
+            clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
             transition: all 0.4s;
 
         }
@@ -208,8 +212,8 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
-
-        span.btntext{
+        border: unset;
+        .btntext{
             width: 100%;
             padding: 10px 10px;
         }
@@ -256,7 +260,7 @@
         overflow: hidden;
         position: relative;
         z-index: 1;
-        span.btntext{
+        .btntext{
             width: 100%;
             padding: 10px 10px;
         }

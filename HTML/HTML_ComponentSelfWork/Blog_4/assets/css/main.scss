@@ -39,7 +39,6 @@ img{
         padding-left: 31px;
     }
 
-
     &::after{
         position: absolute;
         content: "";
@@ -174,6 +173,9 @@ img{
         a.eventCardImg{
             transition: all 0.4s;
             text-decoration: none;
+            display: block;
+            height: 100%;
+            min-height: 1px;
             &::after{
                 content: "";
                 display: block;
