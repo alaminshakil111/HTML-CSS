@@ -12,11 +12,10 @@ function showPanel(panelIndex, colorCode){
     tabPanels.forEach(function(node){
         node.style.display ="none";
     });
-    tabPanels[panelIndex].style.display ="block";
+    tabPanels[panelIndex].style.display ="flex";
     tabPanels[panelIndex].style.backgroundColor = colorCode;
 }
 showPanel(0, '#4d0000');
-showPanel(1, '#330000');
 
 
 

@@ -8,6 +8,10 @@
 .xzoom-thumbs a {
   display: inline-block;
 }
+.xzoom-thumbs a:not(:last-child) {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
 .xzoom-thumbs a img {
   margin: 0px;
   height: 55px;

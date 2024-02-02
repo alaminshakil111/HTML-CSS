@@ -49,6 +49,11 @@ img{
         width: 100%;
         min-height: 480px;
         display: none;
+        &:active{
+            display: flex!important;
+            min-height: 1px!important;
+            height: 100%!important;
+        }
         .tabpanelPara{
             padding: 15px;
             height: 100%;

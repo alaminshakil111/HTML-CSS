@@ -127,6 +127,7 @@
         position: relative;
         transition: all 0.4s;
         z-index: 1;
+        border: unset;
         &:before{
             content: '';
             display: block;
@@ -138,6 +139,7 @@
             z-index: -2;
             // background: #3860a9;
             background-image: linear-gradient(33deg, (transparent) 74%, rgba(000, 000, 000, 0.3) 50%);
+            // background-image: linear-gradient(0deg, blue, green 40%, red);
             transition: all 0.4s;
         }
 
@@ -226,8 +228,9 @@
             transition: all 0.4s;
         }
         &:active{
-            transform: scale(0.92) rotate(4deg);
+            transform: scale(0.92);
             transition: unset;
+
         }
     }
 }
@@ -239,14 +242,14 @@
       transition: 0.3s all;
     }
     50% {
-      opacity: 0;
+      opacity: 0.5;
       transform: scale(1.5);
       transition: 0.3s all;
 
     }
     100% {
       opacity: 0;
-      transform: scale(1.5);
+      transform: scale(1);
       transition: 0.3s all;
 
     }

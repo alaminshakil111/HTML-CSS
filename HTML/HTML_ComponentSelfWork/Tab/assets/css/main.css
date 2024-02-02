@@ -47,6 +47,11 @@ img {
   min-height: 480px;
   display: none;
 }
+.tabContainer .tabpanel:active {
+  display: flex !important;
+  min-height: 1px !important;
+  height: 100% !important;
+}
 .tabContainer .tabpanel .tabpanelPara {
   padding: 15px;
   height: 100%;

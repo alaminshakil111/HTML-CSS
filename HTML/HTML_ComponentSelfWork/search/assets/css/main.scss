@@ -22,15 +22,18 @@
             padding: 1px 10px;
             width: 260px;
             caret-color: #fff;
-            transition: width 0.4s linear;
+            transition: width 0.5s linear;
             padding-right: 48px;
         }
-        .search_icon{
+        .searchicon_prnt{
             background: white;
-            color: #000;
             position: absolute;
             top: 1px;
             right: 2px;
+            transition: 0.9s all;
+            a{
+                color: #000;
+            }
         }
     }
     .search_input{
@@ -38,12 +41,12 @@
         border: 0;
         outline: 0;
         background: none;
-        width: 0;
+        width: 0px;
         line-height: 40px;
         position: relative;
-        transition: width 0.4s linear;
+        transition: width 0.5s linear;
     }
-    .search_icon{
+    .searchicon_prnt{
         height: 40px;
         width: 40px;
         float: right;
@@ -53,6 +56,12 @@
         border-radius: 50%;
         color:white;
         text-decoration:none;
+        transition: 0.9s all;
+        a{
+            color: #fff;
+            display: inline-block;
+        }
+
     }
 }
 

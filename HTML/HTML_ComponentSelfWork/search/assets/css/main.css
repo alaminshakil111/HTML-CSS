@@ -9228,27 +9228,30 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 1px 10px;
   width: 260px;
   caret-color: #fff;
-  transition: width 0.4s linear;
+  transition: width 0.5s linear;
   padding-right: 48px;
 }
-.searchbar:hover .search_icon {
+.searchbar:hover .searchicon_prnt {
   background: white;
-  color: #000;
   position: absolute;
   top: 1px;
   right: 2px;
+  transition: 0.9s all;
+}
+.searchbar:hover .searchicon_prnt a {
+  color: #000;
 }
 .searchbar .search_input {
   color: white;
   border: 0;
   outline: 0;
   background: none;
-  width: 0;
+  width: 0px;
   line-height: 40px;
   position: relative;
-  transition: width 0.4s linear;
+  transition: width 0.5s linear;
 }
-.searchbar .search_icon {
+.searchbar .searchicon_prnt {
   height: 40px;
   width: 40px;
   float: right;
@@ -9258,6 +9261,11 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%;
   color: white;
   text-decoration: none;
+  transition: 0.9s all;
+}
+.searchbar .searchicon_prnt a {
+  color: #fff;
+  display: inline-block;
 }
 
 .searchInner {
