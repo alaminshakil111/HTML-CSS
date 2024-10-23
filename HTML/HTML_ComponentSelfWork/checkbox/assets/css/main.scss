@@ -7,37 +7,37 @@ label.checkboxx {
   cursor: pointer;
   user-select: none;
 
-  .checkbox_box{
-    width: 20px;
-    height: 20px;
-    border: 2px solid #ddd;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    flex-shrink: 0;
-    transition: background-color 0.15s, border-color 0.15s;
+  // .checkbox_box{
+  //   width: 20px;
+  //   height: 20px;
+  //   border: 2px solid #ddd;
+  //   border-radius: 3px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   margin-right: 10px;
+  //   flex-shrink: 0;
+  //   transition: background-color 0.15s, border-color 0.15s;
 
-    &:after{
-      content: "\2713";
-      color: #fff;
-      transform: scale(0);
-      transition: transform 0.15s;
+  //   &:after{
+  //     content: "\2713";
+  //     color: #fff;
+  //     transform: scale(0);
+  //     transition: transform 0.15s;
 
-    }
-  }
+  //   }
+  // }
 
-  .checkboxInput{
-    display: none;
-    &:checked + .checkbox_box{
-      background-color: #000;
-      border: #000;
-      &:after{
-        transform: scale(1);
-      }
-    }
-  }
+  // .checkboxInput{
+  //   display: none;
+  //   &:checked + .checkbox_box{
+  //     background-color: #000;
+  //     border: #000;
+  //     &:after{
+  //       transform: scale(1);
+  //     }
+  //   }
+  // }
 }
 
 // -------------CHECKBOX 1 END--------------

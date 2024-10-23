@@ -1,0 +1,45 @@
+@import '../scss/bootstrap';
+
+
+h1{
+    font-size: 30px;
+}
+section.mixitUpBtn {
+    position: relative;
+}
+main.parentsMixitup {
+    width: 300px;
+    margin: 75px auto;
+    height: 254px;
+    overflow-y: auto;
+    .innerMixitUpBtn{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        position: fixed;
+        width: 284px;
+        z-index: 1;
+        background: #fff;    
+    }
+    .mixitUpBoxSlider{
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+        flex-wrap: wrap;
+        position: relative;
+        top: 14%;
+
+        .innerMixitUp{
+            background-color: #e17055;
+            i{
+                width: 100%;
+                font-size: 61px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+

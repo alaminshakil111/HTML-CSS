@@ -9218,34 +9218,6 @@ label.checkboxx {
      -moz-user-select: none;
           user-select: none;
 }
-label.checkboxx .checkbox_box {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ddd;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  flex-shrink: 0;
-  transition: background-color 0.15s, border-color 0.15s;
-}
-label.checkboxx .checkbox_box:after {
-  content: "✓";
-  color: #fff;
-  transform: scale(0);
-  transition: transform 0.15s;
-}
-label.checkboxx .checkboxInput {
-  display: none;
-}
-label.checkboxx .checkboxInput:checked + .checkbox_box {
-  background-color: #000;
-  border: #000;
-}
-label.checkboxx .checkboxInput:checked + .checkbox_box:after {
-  transform: scale(1);
-}
 
 label {
   margin-bottom: 1rem;
